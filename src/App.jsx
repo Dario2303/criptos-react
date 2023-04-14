@@ -1,5 +1,6 @@
 import styled from "@emotion/styled"
 import ImagenCripto from "./img/imagen-criptos.png"
+import Formulario from "./components/Formulario"
 
 const Contenedor = styled.div`
   max-width: 900px;
@@ -19,24 +20,24 @@ const Imagen = styled.img `
 `
 
 const Heading = styled.h1 `
-      font-family: 'Lato', sans-serif;
-      color: white;
-      text-align: center;
-      font-weight: 700;
-      margin-top: 80px;
-      margin-bottom: 50px;
-      font-size: 34px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 34px;
 
-      &::after {
-        content: '';
-        width: 100px;
-        height: 6px;
-        background-color: #66a2fe;
-        display: block;
-        margin: 10px auto 0 auto;
-      }
+    &::after {
+      content: '';
+      width: 100px;
+      height: 6px;
+      background-color: #66a2fe;
+      display: block;
+      margin: 10px auto 0 auto;
+    }
 
-      `
+    `
 
 function App() {
 
@@ -46,9 +47,12 @@ function App() {
       src={ImagenCripto}
       alt="imagenes criptomonedas"
     />
+
     <div>
-    <Heading>Cotiza criptomonedas al instante</Heading>
+      <Heading>Cotiza criptomonedas al instante</Heading>
+      <Formulario/>
     </div>
+    
   </Contenedor>
   )
 }
