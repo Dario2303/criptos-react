@@ -1,5 +1,5 @@
-<a href="https://gastos-five.vercel.app/">
-<img align="right" width="500" src="https://github.com/Dario2303/gastos/blob/main/screenshot.png"/>
+<a href="https://criptos-react-vr8c.vercel.app/">
+<img align="right" width="500" src="https://github.com/Dario2303/criptos-react/blob/main/screenshot_readme.png"/>
 </a>
  
 ### Criptos-React
@@ -10,12 +10,11 @@ I apply the following tools:
 
 - [Vite](https://es.vitejs.dev/) - compiler
 - [React](https://reactjs.org/) - JS library
-- [Tailwind](https://tailwindcss.com/) - CSS framework
+- [CriptoCompare](https://min-api.cryptocompare.com/) API
 - styled components
 - flex box and grid
 - Semantic HTML5 markup
 - CSS custom properties
-- create and customize normalize.css for our workspace
 - Media queries
 - Mobile-first workflow
 - Responsive
